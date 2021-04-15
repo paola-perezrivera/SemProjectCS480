@@ -1,0 +1,21 @@
+LastName, FirstName, Gender, Race, Hispanic
+Coyne, Kevin Michael, Man, White, No
+Cramer, Mark, Man, White, No
+Evans, Richard, Man, White, No
+Akemann, David R., Man, White, No
+Baraka, Ajamu, Man, Black/African American, No
+Clinton, Hillary Rodham, Woman, White, No
+Hawkins, Howie, Man, White, No
+Harris, Kamala D., Woman, More than Two, No
+Biden, Joseph R., Man, White, No
+Bloomberg, Michael R., Man, White, No
+Garcia, Jesus "Chuy""", Man, White, Yes
+Carrico, Antonio, Man, White, Yes
+Bennett, Douglas R., Man, White, No
+Dold, Robert, Man, White, No
+Duckworth, Tammy, Woman, Asian, No
+Durbin, Richard, Man, White, No
+Curran JR., Mark C, Man, White, No
+DIGANVKER, JITENDRA "JD""", Man, Asian, No
+Delgado, Kent, Man, White, No
+ 
