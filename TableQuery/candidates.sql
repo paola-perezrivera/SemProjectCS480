@@ -17,7 +17,10 @@ CREATE TABLE candidates (
     Address2 varchar(90),
     City varchar(45),
     State varchar(2),
-    Zip int,
+    Zip int, ## There are import failures by zip in wizard
+             ## ERRORS: 
+             ## - Row import failed with error: ("Incorrect integer value: '' for column 'Zip' at row 1", 1366)
+			 ## - Row import failed with error: ("Data truncated for column 'Zip' at row 1", 1265)
     FileDate varchar(45),
     Sequence int,
     CandidateStatus varchar(45),
@@ -31,6 +34,20 @@ CREATE TABLE candidates (
     BallotGroup varchar(45),
     OfficeSequence int,
     FormerName varchar(45),
-    EmailAddress varchar(100),
-    primary key (CandidateID)
+    EmailAddress varchar(100)
+    -- , primary key (LastName, FirstName)
+);
+
+-- populates raceGenderInfo table by through "import wizard"
+-- directions for import wizard above. File to import: "./csv_tables/race_gender.csv"
+DROP TABLE IF EXISTS raceGenderInfo;
+CREATE TABLE raceGenderInfo (
+	LastName varchar(45),
+    FirstName varchar(45),
+    GenderPronoun varchar(45),
+    Race varchar(45),
+    Hispanic varchar(3),
+    uid int primary key auto_increment
+    ## When L&F used as fk canidates can't be duplicated in candidates table
+    -- , foreign key(LastName, FirstName) references candidates(LastName, FirstName)
 );

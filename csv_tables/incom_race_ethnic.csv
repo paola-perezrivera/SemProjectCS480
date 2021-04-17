@@ -1,61 +1,82 @@
-LastName, FirstName, Gender, Race, Hispanic
-COYNE, KEVIN MICHAEL, Man, White, No
-CRAMER, MARK, Man, White, No
-EVANS, RICHARD, Man, White, No
-AKEMANN, DAVID R., Man, White, No
-BARAKA, AJAMU, Man, Black/African American, No
-CLINTON, HILLARY RODHAM, Woman, White, No
-HAWKINS, HOWIE, Man, White, No
-HARRIS, KAMALA D., Woman, More than Two, No
-BIDEN, JOSEPH R., Man, White, No
-BLOOMBERG, MICHAEL R., Man, White, No
-GARCIA, JESUS "CHUY""", Man, White, Yes
-CARRICO, ANTONIO, Man, White, Yes
-BENNETT, DOUGLAS R., Man, White, No
-DOLD, ROBERT, Man, White, No
-DUCKWORTH, TAMMY, Woman, Asian, No
-DURBIN, RICHARD, Man, White, No
-CURRAN JR., MARK C, Man, White, No
-DIGANVKER, JITENDRA "JD""", Man, Asian, No
-DELGADO, KENT, Man, White, No
-ADAMS, BRANDON, Man, White, No
-DAVIDSMEYER, CHRISTOPHER "C.D.""", Man, White, No
-WEST, KANYE, Man, Black/African American, No
-TRUMP, DONALD J., Man, White, No
-WALKER, ANGELA, Woman, Black/African American, No
-PENCE, MICHAEL R., Man, White, No
-PELTIER, LEONARD, Man, American Indian/Alaska Native, No
-PATEL, AMAR, Man, Asian, No
-MOHR, WILLIAM ALAN, Man, White, No
-LA RIVA, GLORIA, Woman, White, Yes
-KOPITKE, KYLE KENLEY, Man, White, No
-JORGENSEN, JO, Woman, White, No
-IWANOW, TAJA YVONNE, Woman, White, No
-COHEN, JEREMY "SPIKE""", Man, White, No
-CARROLL, BRIAN, Man, White, No
-BLANKENSHIP, DON, Man, White, No
-AIMEN, JULIE BESS, Woman, White, No
-DEMPSEY, MAIRE AILEEN, Woman, White, No
-"TRISTAN, JR.", GERARDO, Man, White, Yes
-PATTON, NICHOLE C., Woman, Black/African American, No
-KUNA-JACOB, THOMAS J., Man, White, No
-CAULKINS, DAN, Man, White, No
-ESSLINGER, MITCHELL, Man, White, No
-HALBROOK, BRAD, Man, White, No
-AMMONS, CAROL, Woman, Black/African American, No
-BIELERT, BRAD, Man, White, No
-CUNNINGHAM, CYNTHIA E., Woman, White, No
-MARRON, MIKE, Man, White, No
-BRADY, DAN, Man, White, No
-CUMMINGS, CHEMBERLY, Woman, Black/African American, No
-BENNETT, THOMAS M., Man, White, No
-SEILER, DAVID J., Man, White, No
-WILHOUR, BLAINE, Man, White, No
-MEIER, CHARLES, Man, White, No
-NIEMERG, ADAM M, Man, American Indian/Alaska Native, No
-SPENCER, JOHN, Man, White, No
-KOURI, STEPHEN A., Man, White, No
-MACK, JAMES A., Man, White, No
-MUKHERJEE, VALERIE RAMIREZ, Woman, White, Yes
-SCHNEIDER, BRAD, Man, White, No
-WILLIAMS, JAWAHARIAL "OMAR""", Man, Black/African American, No
+LastName	FirstName	GenderPronoun	Race	Hispanic
+COYNE	KEVIN MICHAEL	He/Him	White	No
+CRAMER	MARK	He/Him	White	No
+EVANS	RICHARD	He/Him	White	No
+AKEMANN	DAVID R.	He/Him	White	No
+BARAKA	AJAMU	He/Him	Black/African American	No
+CLINTON	HILLARY RODHAM	She/Her	White	No
+HAWKINS	HOWIE	He/Him	White	No
+HARRIS	KAMALA D.	She/Her	More than Two	No
+BIDEN	JOSEPH R.	He/Him	White	No
+BLOOMBERG	MICHAEL R.	He/Him	White	No
+GARCIA	"JESUS ""CHUY"""	He/Him	White	Yes
+CARRICO	ANTONIO	He/Him	White	Yes
+BENNETT	DOUGLAS R.	He/Him	White	No
+DOLD	ROBERT	He/Him	White	No
+DUCKWORTH	TAMMY	She/Her	Asian	No
+DURBIN	RICHARD	He/Him	White	No
+CURRAN JR.	MARK C	He/Him	White	No
+DIGANVKER	JITENDRA "JD"""	He/Him	Asian	No
+DELGADO	KENT	He/Him	White	No
+ADAMS	BRANDON	He/Him	White	No
+DAVIDSMEYER	"CHRISTOPHER ""C.D."""	He/Him	White	No
+WEST	KANYE	He/Him	Black/African American	No
+TRUMP	DONALD J.	He/Him	White	No
+WALKER	ANGELA	She/Her	Black/African American	No
+PENCE	MICHAEL R.	He/Him	White	No
+PELTIER	LEONARD	He/Him	American Indian/Alaska Native	No
+PATEL	AMAR	He/Him	Asian	No
+MOHR	WILLIAM ALAN	He/Him	White	No
+LA RIVA	GLORIA	She/Her	White	Yes
+KOPITKE	KYLE KENLEY	He/Him	White	No
+JORGENSEN	JO	She/Her	White	No
+IWANOW	TAJA YVONNE	She/Her	White	No
+COHEN	JEREMY "SPIKE"""	He/Him	White	No
+CARROLL	BRIAN	He/Him	White	No
+BLANKENSHIP	DON	He/Him	White	No
+AIMEN	JULIE BESS	She/Her	White	No
+DEMPSEY	MAIRE AILEEN	She/Her	White	No
+TRISTAN, JR.	GERARDO	He/Him	White	Yes
+PATTON	NICHOLE C.	She/Her	Black/African American	No
+KUNA-JACOB	THOMAS J.	He/Him	White	No
+CAULKINS	DAN	He/Him	White	No
+ESSLINGER	MITCHELL	He/Him	White	No
+HALBROOK	BRAD	He/Him	White	No
+AMMONS	CAROL	She/Her	Black/African American	No
+BIELERT	BRAD	He/Him	White	No
+CUNNINGHAM	CYNTHIA E.	She/Her	White	No
+MARRON	MIKE	He/Him	White	No
+BRADY	DAN	He/Him	White	No
+CUMMINGS	CHEMBERLY	She/Her	Black/African American	No
+BENNETT	THOMAS M.	He/Him	White	No
+SEILER	DAVID J.	He/Him	White	No
+WILHOUR	BLAINE	He/Him	White	No
+MEIER	CHARLES	He/Him	White	No
+NIEMERG	ADAM M	He/Him	American Indian/Alaska Native	No
+SPENCER	JOHN	He/Him	White	No
+KOURI	STEPHEN A.	He/Him	White	No
+MACK	JAMES A.	He/Him	White	No
+MUKHERJEE	VALERIE RAMIREZ	She/Her	White	Yes
+SCHNEIDER	BRAD	He/Him	White	No
+WILLIAMS	"JAWAHARIAL ""OMAR"""	He/Him	Black/African American	No
+POOKOTE	ARUN	He/Him Asian	No
+SLAVIN	MARNIE MICHELLE	She/Her	White	No
+MORGAN	BOB	He/Him	White	No
+DIDECH	DANIEL	He/Him	White	No
+BECKMAN	ANTHONY	He/Him	White	No
+MARTWICK	ROBERT	He/Him	White	No
+CZERWONKA	KODY	He/Him	White	No
+MILLER	CHRIS	He/Him	White	No
+BRISTOW	MONICA J.	She/Her	White	No
+ELIK	AMY	She/Her	White	No
+CIAMPOLI	LISA	She/Her	White	No
+STUART	KATIE	She/Her	White	No
+ELMORE	MARK	He/Him	White	No
+BARNES	DAVE	He/Him	White	No
+GREENWOOD	LaTOYA N.	She/Her	Black/African American	No
+HOFFMAN	JAY	He/Him	White	No
+PEAK	IAN	He/Him	White	No
+AUXIER	RANDY	He/Him	White	No
+JACOBS	PAUL	He/Him	White	No
+FRIESS	DAVID	He/Him	White	No
+REITZ	NATHAN	He/Him	White	No
