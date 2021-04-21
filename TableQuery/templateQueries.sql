@@ -90,7 +90,7 @@ set delimiter ;
 drop procedure if exists demographics;
 set delimiter ;;
 -- this is the demographics function that will return the table of people who we want info on
--- this is an example of getting the number of people who represent certain pronouns
+-- this is an example of getting the number of people who represent the different parties
 create procedure demographics()
 begin
 	select PartyName, count(*) as numCount, overallcount from candidateInfos
