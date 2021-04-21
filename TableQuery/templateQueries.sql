@@ -98,3 +98,6 @@ begin
     group by PartyName;
 end ;;
 set delimiter ;
+-- there'll probably need to be a 4th item in the seclect statement where we do
+-- (numcount / overallcount)*100 to get the result as a percentage
+-- where we'll be able to use it when displaying the demographics
