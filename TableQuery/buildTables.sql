@@ -31,7 +31,7 @@ CREATE TABLE candidateInfos (
     ElecDate varchar(45),
     ElectionType varchar(45),
 	PartyName varchar(45),
-    OfficeName varchar(45),
+    OfficeName varchar(145),
 -- not sure if PK is needed here, but if so this is how the PKs should be separated
 -- since there was a candidate who was in 2 different offices for the same ElecDate and Election Type
 --    primary key (C_ID, OfficeName),
