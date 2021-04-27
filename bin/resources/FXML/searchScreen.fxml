@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="searchScene" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+   <MenuBar>
+           <menus>
+               <Menu fx:id="option" mnemonicParsing="false" text="Options">
+                   <items>
+                       <MenuItem fx:id="homeSearch" text="Home" onAction="#goToHome"/>
+                       <MenuItem fx:id="exitSearch" text="Exit" onAction="#exitApp"/>
+                   </items>
+               </Menu>
+           </menus>
+       </MenuBar>
+      <ComboBox layoutX="39.0" layoutY="50.0" prefWidth="150.0" promptText="Name" />
+      <ComboBox layoutX="39.0" layoutY="90.0" prefWidth="150.0" promptText="Political Party" />
+      <ComboBox layoutX="39.0" layoutY="130.0" prefWidth="150.0" promptText="Office" />
+      <ComboBox layoutX="39.0" layoutY="170.0" prefWidth="150.0" promptText="Election Year" />
+      <ComboBox layoutX="39.0" layoutY="210.0" prefWidth="150.0" promptText="Election Type" />
+      <ComboBox layoutX="39.0" layoutY="330.0" prefWidth="150.0" promptText="Pronouns" />
+      <ComboBox layoutX="39.0" layoutY="250.0" prefWidth="150.0" promptText="Race" />
+      <ComboBox layoutX="39.0" layoutY="290.0" prefWidth="150.0" promptText="Hispanic" />
+      <ListView layoutX="281.0" layoutY="125.0" prefHeight="229.0" prefWidth="293.0" />
+      <Button layoutX="382.0" layoutY="53.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="92.0" text="Search" />
+   </children>
+</AnchorPane>
