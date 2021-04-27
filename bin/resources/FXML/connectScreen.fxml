@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="connectScene" prefHeight="400.0" prefWidth="600.0" 
+		xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" 
+		fx:controller="application.Controller" stylesheets="@../style/setUpOne.css">
+    <children>
+        <TextField fx:id="server" layoutX="44.0" layoutY="96.0"/>
+        <TextField fx:id="user" layoutX="232.0" layoutY="96.0" />
+        <TextField fx:id="database" layoutX="417.0" layoutY="96.0" />
+        <TextField fx:id="port" layoutX="139.0" layoutY="188.0" />
+        <TextField fx:id="password" layoutX="325.0" layoutY="187.0" />
+        <Button fx:id="connect" layoutX="213.0" layoutY="268.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="186.0" text="Connect!" onAction="#connectToDatabase">
+            <font>
+                <Font size="30.0" />
+            </font>
+        </Button>
+        <Label layoutX="87.0" layoutY="122.0" prefHeight="32.0" prefWidth="61.0" text="Server" textAlignment="CENTER">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label layoutX="278.0" layoutY="122.0" text="User" textAlignment="CENTER">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label layoutX="446.0" layoutY="122.0" text="Database" textAlignment="CENTER">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label layoutX="193.0" layoutY="213.0" text="Port" textAlignment="CENTER">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label layoutX="353.0" layoutY="213.0" text="Password" textAlignment="CENTER">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

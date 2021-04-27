@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="politicianScene" maxHeight="400.0" maxWidth="386.0" 
+		xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" 
+		fx:controller="application.Controller">
+<children>
+      <Label fx:id="fullname" layoutX="140.0" layoutY="14.0" prefHeight="42.0" prefWidth="225.0" >
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ListView layoutX="259.0" layoutY="224.0" prefHeight="161.0" prefWidth="114.0" />
+      <Button layoutX="30.0" layoutY="279.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="89.0" text="Party" onAction="#goToParty"/>
+      <ImageView fitHeight="152.0" fitWidth="123.0" layoutX="13.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="140.0" layoutY="60.0" prefHeight="23.0" prefWidth="90.0" text="Political Party: " />
+      <Label layoutX="140.0" layoutY="80.0" prefHeight="23.0" prefWidth="51.0" text="Office" />
+      <Label layoutX="140.0" layoutY="100.0" prefHeight="18.0" prefWidth="74.0" text="Election Year:" />
+      <Label layoutX="140.0" layoutY="180.0" text="Pronouns:" />
+      <Label layoutX="140.0" layoutY="140.0" text="Race" />
+      <Label layoutX="140.0" layoutY="160.0" text="Hispanic" />
+      <Label layoutX="140.0" layoutY="120.0" text="Election Type:" />
+      <Label fx:id="poliParty" layoutX="230.0" layoutY="60.0" />
+      <Label fx:id="offices" layoutX="230.0" layoutY="80.0" />
+      <Label fx:id="elecYear" layoutX="230.0" layoutY="100.0" />
+      <Label fx:id="elecType" layoutX="230.0" layoutY="120.0" />
+      <Label fx:id="race" layoutX="230.0" layoutY="140.0" />
+      <Label fx:id="hispanic" layoutX="230.0" layoutY="160.0" />
+      <Label fx:id="pronouns" layoutX="230.0" layoutY="180.0" />
+      <MenuBar> 
+         <menus>
+            <Menu fx:id="option" mnemonicParsing="false" text="Options">
+               <items>
+                  <MenuItem fx:id="homePS" text="Home" onAction="#goToHome"/>
+                  <MenuItem fx:id="searchPS" text="Search" onAction="#goToSearch"/>
+                  <MenuItem fx:id="exitPS" text="Exit" onAction="#exitApp"/>
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>
