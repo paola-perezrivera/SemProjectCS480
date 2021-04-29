@@ -1,0 +1,3 @@
+Nathan - Database: loading the .csv files, creating the tables and queries for the application to use
+Paola - Application: creating the GUI, coding the elements, incorporating the SQL queries created above
+Anya - Searched for the csv files, modified the SQL tables to better fit our data, error-checking and verifying that our code worked as intended
