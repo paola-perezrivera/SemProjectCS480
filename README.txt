@@ -9,9 +9,9 @@ Password - password
 
 Clicking the connect button after filling these fields takes the user to the main page.
 
-2. The user is shows the Start Screen. The user must hit the start button in order to populate the combo bozes and enable to other buttons
+2. The user is shown the Start Screen. The user must hit the start button in order to populate the combo bozes and enable to other buttons
 
-3. The user can chose different attributes to search for. The user can only select one from each field. If the user wants to remove a selection, scrolling all the way done will give the null value ( i.e. Office or Race). Press Search in order to bring up the Full name of the people who fit the criteria.
+3. The user can choose different attributes to search for. The user can only select one from each field. If the user wants to remove a selection, scrolling all the way down will give the null value ( i.e. Office or Race). Press Search in order to bring up the Full name of the people who fit the criteria.
 
 4. On the bottom right, there are three buttons - Party, Gender, and Race. Clicking these will show different PieCharts that give a visual representation of the people in the database.
 
