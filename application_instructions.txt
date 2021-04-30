@@ -1,0 +1,8 @@
+Must have openjfk version 11.0.2 https://openjfx.io/, jdk version 11.0.11 https://www.oracle.com/uk/java/technologies/javase-jdk11-downloads.html, and MySQL JDBC.
+
+Download the files and open them using a Java IDE.
+Configure the Build Path and add the JavaFX .jar files included in the openjfx lib folder (do not include the src.zip file)
+Also add the MySQL JDBC to the build path.
+
+Configure the Run settings and add the below statement to VM arguments
+--module-path "C:\Users\paola\Downloads\openjfx-11.0.2_windows-x64_bin-sdk\javafx-sdk-11.0.2\lib"
