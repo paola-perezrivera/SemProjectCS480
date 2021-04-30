@@ -8,6 +8,6 @@ If there are any features that are non-obvious, such as the ability to click on 
 than buttons, highlight those.  We will only be testing the features you describe in this documentation.
 
 
-....
-
+The database allows you to interact with dropdown buttons, text buttons, and a menu button.
+These change the displayed information on the pie chart shown. 
 

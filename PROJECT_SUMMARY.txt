@@ -8,8 +8,6 @@ Where did you learn it, what resources did you use?  Links to official documenta
 What challenges did you encounter?  What parts were really challenging about the project? 
   What ended up being exceptionally time consuming?
 
-Anya: The most time consuming part was getting the data, and formatting the data to be similar to the filling database. I spent many hours looking for database that housed a lot of info, and preparing data.
-
 
 How did you work around those challenges?  
  Did you ask for help? 
@@ -18,18 +16,8 @@ How did you work around those challenges?
  Changed the scope/content of the project to avoid the complication?  
  Work through it but still haven't found a better way?
 
-Anya: I sent out a google survey to everyone who listed their email in the filing database and contacted politicans to give me other politicians information. Also some other universities have databases that collect some of the information. This spend up the time somewhat, but not enough people replied.
-
 
 If you had to build an application needing access to data in the future, how would you do it?  
  Would you use the same application language?  Library?  DBMS?  
  Knowing what you know now, would you take a different approach to solving the problem?
-
-
-
-Anya: I actually need to access data for my current research project and I decided to use python's library pandas instead of MySQL. I definitely have gotten better at data manipulation in general from using MySQL, but the code feels so clunky. If I had to redo the assignment, I would limit the politicans to elected congress and house officials accross the US or maybe expand it to globe. There is definitely more easibly accessible data on federal officials than local, state or province officials. 
-
-
-
-
 
