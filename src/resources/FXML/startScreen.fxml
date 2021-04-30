@@ -2,29 +2,34 @@
 
 <?import javafx.scene.chart.*?>
 <?import javafx.scene.control.*?>
-<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane fx:id="startScene" prefHeight="400.0" prefWidth="600.0" 
+<AnchorPane fx:id="startScene" prefHeight="559.0" prefWidth="807.0" 
 			xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" 
-			fx:controller="application.Controller" stylesheets="@../style/setUpTwo.css">
+			fx:controller="application.Controller" stylesheets="@../style/setUpOne.css">
     <children>
         <MenuBar>
             <menus>
                 <Menu fx:id="option" mnemonicParsing="false" text="Options">
                     <items>
-                        <MenuItem fx:id="searchStart" text="Search" onAction="#goToSearch" />
                         <MenuItem text="Exit" onAction="#exitApp"/>
+                        <MenuItem text="Reset" onAction="#reset"/>
                     </items>
                 </Menu>
             </menus>
         </MenuBar>
-        <Button fx:id="search" layoutX="59.0" layoutY="114.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="130.0" text="Start Your Search!" />
-        <Button fx:id="test" layoutX="260.0" layoutY="293.0" mnemonicParsing="false" onAction="#randPolitician" prefHeight="20.0" prefWidth="47.0" text="Test" />
-        <PieChart fx:id="political_party" layoutX="300.0" layoutY="26.0" prefHeight="252.0" prefWidth="281.0" title="Political Parties" />
-        <ImageView fx:id="partyIconOne" fitHeight="100.0" fitWidth="100.0" layoutX="32.0" layoutY="237.0" pickOnBounds="true" preserveRatio="true" />
-        <ImageView fx:id="partyIconTwo" fitHeight="100.0" fitWidth="100.0" layoutX="156.0" layoutY="237.0" pickOnBounds="true" preserveRatio="true" />
-        <Label fx:id="nameRandOne" layoutX="37.0" layoutY="343.0" prefHeight="20.0" prefWidth="104.0" text="Label" />
-        <Label fx:id="nameRandTwo" layoutX="156.0" layoutY="343.0" prefHeight="20.0" prefWidth="104.0" text="Label" />
+        <Button fx:id="search" disable="true" onAction="#displayInfo" layoutX="130.0" layoutY="205.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="130.0" text="Search!" />
+        <Button fx:id="party" disable="true" layoutX="434.0" layoutY="497.0" mnemonicParsing="false" onAction="#displayCharts" prefHeight="46.0" prefWidth="82.0" text="Party" />
+        <PieChart fx:id="pickPieChart" layoutX="434.0" layoutY="26.0" prefHeight="450.0" prefWidth="358.0" title="Political Parties" />
+		<Button fx:id="gender" disable="true" layoutX="560.0" layoutY="497.0" mnemonicParsing="false" onAction="#displayCharts" prefHeight="46.0" prefWidth="105.0" text="Gender"/>
+		<Button fx:id="racePercent" disable="true" layoutX="709.0" layoutY="497.0" mnemonicParsing="false" onAction="#displayCharts" prefHeight="46.0" prefWidth="82.0" text="Race" />
+		<ComboBox fx:id="partyBox" layoutX="33.0" layoutY="118.0" prefHeight="26.0" prefWidth="82.0" promptText="Party" />
+		<ComboBox fx:id="yearBox" layoutX="282.0" layoutY="118.0" prefHeight="26.0" prefWidth="74.0" promptText="Year" />
+		<ComboBox fx:id="raceBox" layoutX="154.0" layoutY="159.0" prefHeight="26.0" prefWidth="82.0" promptText="Race" />
+		<ComboBox fx:id="pronounsBox" layoutX="33.0" layoutY="159.0" prefHeight="26.0" prefWidth="97.0" promptText="Pronouns" />
+		<ComboBox fx:id="officeBox" layoutX="158.0" layoutY="118.0" prefHeight="26.0" prefWidth="74.0" promptText="Office" />
+		<ComboBox fx:id="hispanicBox" layoutX="259.0" layoutY="159.0" prefHeight="26.0" prefWidth="98.0" promptText="Hispanic" />
+		<ListView fx:id="ResultsList" layoutX="16.0" layoutY="275.0" prefHeight="267.0" prefWidth="389.0" />
+		<Button fx:id="start" layoutX="142.0" layoutY="54.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="106.0" text="Start" onAction="#setUpEverything"/>
     </children>
 </AnchorPane>

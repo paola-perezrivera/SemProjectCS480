@@ -1,9 +1,9 @@
 .button{
-	-fx-font-size: 12px;
-	-fx-text-fill: #000000;
-	-fx-background-color: #f0dec2;
-	-fx-border-width: 2.0;
-	-fx-border-color: #000000;
+	-fx-font-size: 10px;
+	-fx-text-fill: #ffffff;
+	-fx-background-color: #ab2806; 
+	-fx-border-width: 1.0;
+	-fx-border-color: #771b04;
 }
 
 .root{
