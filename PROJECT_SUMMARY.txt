@@ -1,0 +1,23 @@
+
+What did you have to learn, what did you find you didn't know enough about from the earlier 
+ assignments and lessons?
+
+Where did you learn it, what resources did you use?  Links to official documentation and examples 
+ online are reasonable resources.
+
+What challenges did you encounter?  What parts were really challenging about the project? 
+  What ended up being exceptionally time consuming?
+
+
+How did you work around those challenges?  
+ Did you ask for help? 
+ Look at additional resources/examples? 
+ Change the way you tried to solve the problem? 
+ Changed the scope/content of the project to avoid the complication?  
+ Work through it but still haven't found a better way?
+
+
+If you had to build an application needing access to data in the future, how would you do it?  
+ Would you use the same application language?  Library?  DBMS?  
+ Knowing what you know now, would you take a different approach to solving the problem?
+
