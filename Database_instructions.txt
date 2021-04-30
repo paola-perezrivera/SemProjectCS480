@@ -4,5 +4,6 @@ data into the databases
 all of the XX########.csv files should be loaded into the candidates.sql (ex. CE20150407.csv, CE20170404.csv, etc.)
 race_ethnic.csv should be loaded into racegender.sql
 
-After loading the csvs, run combineCandidatesRaceGender.sql and then buildTables.sql. The tables inside the
-buildTables.sql will be what the Application will use to gather the necessary information
+After loading the csvs, run combineCandidatesRaceGender.sql, buildTables.sql, then searchingoverall.sql. The tables inside the
+buildTables.sql will be what the Application will use to gather the necessary information and searchingoverall.sql gives the 
+procedure necessary for the Application.
